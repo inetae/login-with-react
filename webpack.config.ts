@@ -71,16 +71,19 @@ const config = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'index',
+            description: 'Home page with welcome note',
             template: "./src/index.html",
             filename: "./index.html"
         }),
         new HtmlWebpackPlugin({
             title: 'Login page',
+            description: 'Login page form',
             template: "./src/index.html",
             filename: "./login.html"
         }),
         new HtmlWebpackPlugin({
             title: 'Servers page',
+            description: 'There you can find servers list by distance and name',
             template: "./src/index.html",
             filename: "./servers.html"
         }),
