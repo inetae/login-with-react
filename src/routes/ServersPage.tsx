@@ -8,8 +8,8 @@ const ServersPage = () => {
     const accessToken = getCookie('access_token');
     return (
         <>
-            <Header/>
-            { accessToken ? <Servers/> : <Redirect from="/" to="/login" noThrow/> }
+            <Header />
+            { accessToken ? <Servers /> : <Redirect from="/" to="/login" noThrow/> }
         </>
     )
 };

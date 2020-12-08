@@ -2,10 +2,10 @@ import { ActionType, State } from 'constants/interfaces';
 
 const Reducer = (state: State, action: ActionType) => {
     switch (action.type) {
-        case 'SET_POSTS':
+        case 'SET_DATA':
             return {
                 ...state,
-                posts: action.payload
+                data: action.payload
             };
         case 'SET_ERROR':
             return {

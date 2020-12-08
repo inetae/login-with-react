@@ -4,12 +4,6 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import validateLogin from 'controllers/formValidation';
 import style from './LoginForm.module.scss';
 
-interface Errors {
-    username: string;
-    password: string;
-    main: string;
-}
-
 interface Props {
     login: Function;
     error?: string;

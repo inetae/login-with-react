@@ -7,7 +7,7 @@ interface Props {
 }
 
 const initialState: State = {
-    posts: [],
+    data: [],
     error: null
 };
 

@@ -10,12 +10,8 @@ export interface Server {
 }
 
 export interface State {
-    posts: Server[] | never[];
+    data: Server[] | never[];
     error: null;
-}
-
-interface ErrorResponse {
-    message: string;
 }
 
 export interface ActionType {

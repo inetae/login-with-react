@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from "@reach/router"
-import { getCookie, signOut } from "controllers/helpers";
+import { Link } from '@reach/router'
+import { getCookie, signOut } from 'controllers/helpers';
 import style from './Header.module.scss';
 
 const Header = () => {

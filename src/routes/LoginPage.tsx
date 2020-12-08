@@ -60,7 +60,10 @@ const LoginPage = () => {
         : <div className={style.layout}>
             <div className={style.loginWrapper}>
                 <h1 className={style.heading}>Login to...</h1>
-                <LoginForm login={(value: LoginDetails, token: string) => LoginToProfile(value, token)} error={responseError}/>
+                <LoginForm
+                    login={(value: LoginDetails, token: string) => LoginToProfile(value, token)}
+                    error={responseError}
+                />
             </div>
         </div>
 };

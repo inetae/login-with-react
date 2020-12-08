@@ -1,8 +1,7 @@
 import React from 'react';
-import Header from "components/Header/Header";
-import style from './Home.module.scss'
-
-import { getCookie } from "controllers/helpers";
+import Header from 'components/Header/Header';
+import { getCookie } from 'controllers/helpers';
+import style from './Home.module.scss';
 
 const Home = () => {
     const accessToken = getCookie('access_token');
@@ -21,6 +20,6 @@ const Home = () => {
             }
         </div>
     </div>
-}
+};
 
 export default Home;
