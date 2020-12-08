@@ -1,0 +1,24 @@
+@import "assets/style/variables";
+
+.loginWrapper {
+  width: 100%;
+  height: auto;
+  min-width: 240px;
+  max-width: 400px;
+  margin: 190px auto 0;
+  display: inline-block;
+}
+
+.layout {
+  text-align: center;
+  height: 100vh;
+  padding: 0 20px;
+  background: $blue;
+}
+
+.heading {
+  color: white;
+  padding: 0 30px;
+  font-size: 24px;
+  margin: 0 0 40px;
+}

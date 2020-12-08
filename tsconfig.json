@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": ["node", "express"],
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "assets/*": ["./src/assets/*"],
+      "components/*": ["./src/components/*"],
+      "controllers/*": ["./src/controllers/*"],
+      "constants/*": ["./src/constants/*"],
+      "routes/*": ["./src/routes/*"],
+      "server/*": ["./src/server/*"]
+    }
+//    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["src"]
+}
